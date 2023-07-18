@@ -13,7 +13,7 @@ services:
       MYSQL_DB: microservices
     depends_on:
       - mysqldb
-    command: ["./wait-for-it.sh", "mysqldb:3306", "--", "java", "-jar", "quiz-0.0.1-SNAPSHOT.jar"]
+
 
 
 
