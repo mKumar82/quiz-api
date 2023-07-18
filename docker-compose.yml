@@ -11,6 +11,9 @@ services:
       MYSQL_USER: root
       MYSQL_PASSWORD: root
       MYSQL_DB: microservices
+    depends_on:
+      - mysqldb
+
 
 
   mysqldb:
